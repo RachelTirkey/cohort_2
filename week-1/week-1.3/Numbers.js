@@ -6,4 +6,14 @@ function explainParseInt(value){
 
 explainParseInt("42");
 explainParseInt("42px");
-explainParseInt("3.14")
+explainParseInt("3.14");
+
+function explainParseFloat(value){
+    console.log("Original Value:", value);
+    let result = parseFloat(value);
+    console.log("after parseFloat:", result);
+}
+
+explainParseFloat("42");
+explainParseFloat("42px");
+explainParseFloat("3.14")
