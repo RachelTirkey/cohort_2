@@ -13,3 +13,14 @@ function findIndexOf(str, target){
    
 }
 findIndexOf("Hello World World World", "World");
+
+
+function getSlice(str, start, end){
+    console.log("Original String:", str);
+    console.log("After slice", str.slice(start, end));
+    
+   
+}
+getSlice("Hello World World World", 0, 5);
+
+
