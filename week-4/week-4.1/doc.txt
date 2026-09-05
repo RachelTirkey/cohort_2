@@ -1,0 +1,15 @@
+ What was JavaScript?
+
+ It was an implementation of ECMAScript spec, but the javascript that runs in your browser has some extra functionality.
+ Browser JS -> setTimeout, fetch, setInterval, document
+ Node JS -> setTimeout, http, fs
+
+
+
+ Dynamic ----
+ 1. Changing the elements on the website once the website is loaded
+ 2.Actually calculating the sum based on the inputs and rendering it on the screen
+
+
+ Why are Ids useful?
+ Classes let you get rid of of code repetition but Ids let you access elements via the DOM API
