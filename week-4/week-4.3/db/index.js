@@ -1,7 +1,10 @@
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://racheltirkey:Youcan13testmongo@cluster0.5lmqcbw.mongodb.net/course_selling_app');
+require("dotenv").config({
+    path: "../../../.env"
+});
 
+mongoose.connect(process.env.MONGO_URI)
 
 const AdminSchema = new mongoose.Schema({
    username: String,
